@@ -25,9 +25,9 @@
 </head>
 
 <body>
-
+	<?php include_once("analyticstracking.php") ?>
 	<div id="logo_container_large_hp">
-		<a href="https://sushantkadam1.github.io/">sushantkadam</a>
+		<a href="https://sushantkadam1.github.io/">sushantkadam.info</a>
 		<hr />
 		<h1>SUSHANT KADAM INFORMATION PAGE</h1>
 	</div>
@@ -48,7 +48,7 @@
             <a href="https://goodreads.com/mrsushantkadam">goodreads</a>
         </div>
         <div class="header_nav_el_mobile">
-            <a href="https://Sushantkadam1.github.io/bios/">BIOS</a>
+            <a href="https://Sushantkadam1.github.io/bios/">bio</a>
         </div>
         <div class="header_nav_el_mobile">
             <a href="https://Sushantkadam1.github.io/about/">ABOUT THIS WEBSITE</a>
@@ -59,7 +59,7 @@
 			<a href="https://www.facebook.com/SushantPkadam">Facebook</a><br />
 			<a href="https://twitter/MrSushantKadam">Twitter</a><br />
 			<a href="https://goodreads.com/mrsushantkadam">Goodreads</a><br />
-			<a href="https://Sushantkadam1.github.io/bios/">BIOS</a><br />
+			<a href="https://Sushantkadam1.github.io/bios/">bio</a><br />
 			<a href="https://Sushantkadam1.github.io/about/">About</a>
 		</div>
 		<div id="hero_column_hp">
@@ -70,7 +70,7 @@
 			<a href="https://www.facebook.com/SushantPkadam">Facebook</a><br />
 			<a href="https://twitter/MrSushantKadam">Twitter</a><br />
 			<a href="https://goodreads.com/mrsushantkadam">Goodreads</a><br />
-			<a href="https://Sushantkadam1.github.io/bios/">BIOS</a><br />
+			<a href="https://Sushantkadam1.github.io/bios/">bio</a><br />
 			<a href="https://Sushantkadam1.github.io/about/">About</a>
 		</div>
 		<div id="photo_credit_hp">
@@ -92,18 +92,19 @@
 
 
 	<div id="footer_hp">
-		<a href="https://sushantkadam1.github.io/">Personal information page</a>
+		<a href="https://sushantkadam1.github.io/">personal information</a>
 		<hr />
 	</div>
-	<script type="text/javascript">
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-		ga('create', 'UA-25328332-1', 'auto');
-		ga('send', 'pageview');
-	</script>
+  ga('create', 'UA-74697557-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </body>
 </html>
 
